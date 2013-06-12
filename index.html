@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>File Transfer Example</title>
-    <script type="text/javascript" charset="utf-8" src="phonegap-1.2.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova-2.7.0.js"></script>
     <script type="text/javascript" charset="utf-8">
  
         // Wait for PhoneGap to load
@@ -40,7 +40,7 @@
             options.chunkedMode = false;
  
             var ft = new FileTransfer();
-            ft.upload(imageURI, "http://yourdomain.com/upload.php", win, fail, options);
+            ft.upload(imageURI, "http://131.246.34.223/upload.php", win, fail, options);
         }
  
         function win(r) {
